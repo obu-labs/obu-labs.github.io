@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OBU: Labs</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #fdfdfd;
+      color: #222;
+    }
+    header {
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .tagline {
+      font-style: italic;
+      color: #555;
+    }
+    section.projects {
+      margin-top: 2rem;
+    }
+    .project {
+      margin-bottom: 2rem;
+    }
+    .project h3 {
+      margin: 0.5rem 0;
+    }
+    .project a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 <body>
-<h1>OBU Labs</h1>
-<p>Experiments in digital, Buddhist pedagogy by The Open Buddhist University</p>
-<h2>Projects</h2>
-<ul>
-<li><h3><a href="/vinaya">The Vinaya Notebook</a></h3>
-<p>A system for collaboratively or privately studying the Buddhist Monastic Precepts built on top of Obsidian.</p></li>
-<li><h3><a href="/jambudipa_map.html">Jambudipa Map</a></h3>
-<p>A map of India in the Buddha's day courtesy of <a href="https://discourse.suttacentral.net/t/is-there-a-nice-literary-map-of-early-buddhism/27301/114?u=khemarato.bhikkhu">Jonas</a> on SuttaCentral.<br>Download <a download href="/jambudipa_map.svg">the SVG file here</a>.</p></li>
-</ul>
+  <header>
+    <h1>OBU: Labs</h1>
+    <p class="tagline">experiments in digital, Buddhist pedagogy</p>
+  </header>
+
+  <section class="projects">
+    <h2>Current Projects</h2>
+
+    <div class="project">
+      <h3><a href="/vinaya">The Vinaya Notebook</a></h3>
+      <p>
+        A system for collaboratively or privately studying the Buddhist Monastic Precepts, built on top of Obsidian.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3><a href="/jambudipa_map.html">Jambudipa Map</a></h3>
+      <p>
+        A map of India in the Buddha's day courtesy of 
+        <a href="https://discourse.suttacentral.net/t/is-there-a-nice-literary-map-of-early-buddhism/27301/114?u=khemarato.bhikkhu">Jonas</a> 
+        on SuttaCentral.
+        <br />
+        Download <a href="/jambudipa_map.svg" download>the SVG file here</a>.
+      </p>
+    </div>
+  </section>
 </body>
 </html>
+
